@@ -11,7 +11,7 @@ COPY target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar    /usr/src/m
 WORKDIR /usr/src/myapp
 
 #EXPOSE
-EXPOSE 8084
+EXPOSE 8080
 
 # Start the Bot Service
 CMD ["java", "-jar", "spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar"]
